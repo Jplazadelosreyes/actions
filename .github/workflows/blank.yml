@@ -22,7 +22,7 @@ jobs:
         node-version: '18'
 
     - name: Install dependencies
-      run: npm ci # 'npm ci' es mejor que 'npm install' en CI/CD
+      run: npm install
 
     - name: Run tests
       run: npm test
