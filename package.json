@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "init-project": "npm init -y",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": { 
+  "devDependencies": {
     "jest": "^29.x.x"
   }
 }
