@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "init-project": "npm init -y 1",
-    "test": "node test/suma.test.js"
+    "init-project": "npm init -y",
+    "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": { 
+    "jest": "^29.x.x"
+  }
 }
