@@ -1,1 +1,1 @@
-console.log("Hola desde la clase Juan");
+console.log("Hola desde la clase Juan2");
